@@ -6,6 +6,7 @@ DEBUG = False
 
 PLUGINS = [
     'slackbot.plugins',
+    'default.plugins',
 ]
 
 ERRORS_TO = None
