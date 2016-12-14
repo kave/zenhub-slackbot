@@ -42,7 +42,7 @@ for key in os.environ:
         globals()[name] = os.environ[key]
 
 try:
-    from slackbot_settings import *
+    from slackbot.slackbot_settings import *
 except ImportError:
     try:
         from local_settings import *
